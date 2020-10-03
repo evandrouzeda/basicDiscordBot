@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-const token = 'SEU TOKEN AQUI';
+const token = require('./app/config/token'); // <== SEU TOKEN AQUI
 
 const prefix = '!'
 
